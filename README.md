@@ -1,5 +1,4 @@
-# investigacion-06
-# Sistema de Cobro de Tarifas
+# Investigación Sistema de Cobro de Tarifas
 
 ## Características de Arquitectura a Priorizar
 

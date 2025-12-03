@@ -22,15 +22,6 @@ Dado este escenario, se busca una solución para el envío asíncrono de informa
 - Generar una aplicación cliente para ser utilizada como POS. Puede ser generada usando cualquier tecnología, para este caso la interfaz de usuario no es relevante.
 - El backend no necesita persistir los datos necesariamente, necesita procesar todos los datos en el orden correcto. Es suficiente simular la persistencia de datos.
 
-## Parámetros de Evaluación
-
-| Característica  | Descripción                                                                                           | Criterios de Puntuación                                                                                                                                                                                                                |
-|-----------------|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Mantenibilidad  | Facilidad de mantener y actualizar el sistema de cobro de tarifas a lo largo del tiempo.             | - Código bien documentado: 3 puntos<br>- Modularidad y estructura clara: 2 puntos<br>- Falta de documentación o estructura poco clara: 1 punto                                                                                        |
-| Testeabilidad   | Facilidad de probar el sistema de cobro de tarifas, incluyendo varios escenarios y manejo de errores.  | - Cobertura de pruebas completa para diferentes escenarios: 3 puntos<br>- Fácil agregar nuevos casos de prueba: 2 puntos<br>- Cobertura de pruebas limitada o difícil de extender: 1 punto                                            |
-| Escalabilidad   | Capacidad del sistema para manejar un número creciente de transacciones y usuarios.                  | - Fácilmente escalable para acomodar transacciones incrementadas: 3 puntos<br>- Algunas características de escalabilidad, pero con limitaciones: 2 puntos<br>- Escalabilidad limitada, problemas potenciales con carga aumentada: 1 punto |
-| Confiabilidad   | Dependencia del sistema de cobro de tarifas en el manejo de transacciones y sincronización de datos. | - Alta confiabilidad con errores mínimos y sincronización de datos consistente: 3 puntos<br>- Errores ocasionales con sincronización de datos o manejo de transacciones: 2 puntos<br>- Errores frecuentes que impactan la confiabilidad: 1 punto |
-
 ## 🎯 Objetivos del Proyecto
 
 Este proyecto busca desarrollar una solución robusta para el cobro de tarifas mediante tarjetas NFC que funcione de manera eficiente incluso con conectividad intermitente. La arquitectura debe garantizar:
